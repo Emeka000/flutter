@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
           brightness:isDarkMode ? Brightness.dark: Brightness.light,
         ),
       ),
-      home: WidgetsTree(),git push -u origin main
+      home: WidgetsTree(),
     );
   }
 }

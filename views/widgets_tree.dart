@@ -42,9 +42,7 @@ class _MyWidgetState extends State<MyWidget> {
             icon: ValueListenableBuilder(
               valueListenable: isDarkModeNotifier,
               builder: (context, isDarkMode, child) {
-                return Icon(
-                  isDarkMode ? Icons.light_mode : Icons.dark_mode
-                );
+                return Icon(isDarkMode ? Icons.light_mode : Icons.dark_mode);
               },
             ),
           ),
@@ -57,8 +55,6 @@ class _MyWidgetState extends State<MyWidget> {
         },
       ),
       bottomNavigationBar: NavbarWidgets(),
-        
-      
     );
   }
 }
